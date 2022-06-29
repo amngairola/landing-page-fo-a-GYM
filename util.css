@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fascinate&family=Indie+Flower&display=swap');
+.min-h-screen{
+ height: 200vh;
+}
+
+.bg-red{
+    background-color: red;
+}
+
+.mx-auto{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.flex{
+    display: flex;
+}
+
+.flex-col{
+    flex-direction: column; 
+}
+
+.items-center{
+    align-items: center;
+    font-weight:bolder;
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+.justify-center{
+    justify-content: center;
+}
+
+.font{
+    font-family: 'Work Sans', sans-serif;
+}
+.bold{
+    font-size: 2rem;
+}
+.animated
+    {
+        width: 20vw;
+        height: 10vh;
+        background: #5abaf7;
+        position: relative;
+        animation: mymove infinite;
+        animation-duration: 15s;
+        border-radius: 4vh;
+        text-align: center;
+        padding: 4vh 0 0 0;
+        /* margin: auto; */
+      }
+      
+      @keyframes mymove {
+        from {left: 0 }
+        50%
+        {
+            backgrouind-color: #ac3b61;
+        }
+        to {left: 70vw;}
+      }
+
+.my-1{
+    margin: 3vh 0 3vh 0 ;
+    font-family: 'Fascinate', cursive;
+    color: #ac3b61;
+
+}
+.my-2{
+    margin: 3vh 0 3vh 0 ;
+    font-size: 2rem;
+}
+.px-2{
+    padding: 0 4vh 0 4vh  ;
+}
+
+.text-blue{
+    color: #e67c85;
+}
+.btn{
+    padding: 1vh 2vh;
+    border: 2px solid black;
+    border-radius: 2vh;
+    cursor: pointer;
+    color:  white;
+    background-color: #e45f7e;
+}
+.btn:hover{
+    background-color: black;
+    color: white;
+}
+/* .overflow{
+    overflow-x: hidden;
+} */
+.text-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box1{
+    margin: 5vh;
+    min-width: 30vh;
+}
+.box1:hover{
+    min-width: 18vw;
+    background-color:#ffdb49;
+    color: black;
+}
+.box1 ul{
+    list-style: none;
+}
+.box1 li{
+    margin: 1vh 3vh 1vh 0;
+}
+.box2{
+    margin: 5vh;
+    min-width: 30vh;
+}
+.box2:hover{
+    min-width: 18vw;
+    background-color:#46bcf2;
+    color: black;
+}
+.box2 ul{
+    list-style: none;
+}
+.box2 li{
+    margin: 1vh 3vh 1vh 0;
+}
+.box3{
+    margin: 5vh;
+    min-width: 30vh;
+}
+.box3:hover{
+    min-width: 18vw;
+    background-color:#d66f68;
+    color: black;
+}
+.box3 ul{
+    list-style: none;
+}
+.box3 li{
+    margin: 1vh 3vh 1vh 0;
+}
+
+.change:hover{
+   color: red;
+}
+.xt{
+    margin:1vh  7vh;
+}
+.items{
+    font-family: 'Indie Flower', cursive;
+    border: 1px solid white;
+    border-radius: 2vh;
+}
